@@ -6,6 +6,8 @@ class Main {
     }
 
     private String getClassName() {
+        // "Main" can be replaced with whichever
+        // class you want to grab the name of.
         return Main.class
             .toString()
             .replace("class", "")
